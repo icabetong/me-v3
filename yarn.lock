@@ -198,6 +198,16 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
+"@steeze-ui/feather-icons@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@steeze-ui/feather-icons/-/feather-icons-1.3.0.tgz#44b36bf5a00b2153f65c51a4e9eeabbdca51ef73"
+  integrity sha512-I1smxP+LFQDL09ccVQ3IKx6eyORnbzVY0g4Fn7AdNmnwuE2XAlfi/F7r5ti2OlgVbkSMwFjM5VpqLCe6dIykMg==
+
+"@steeze-ui/svelte-icon@^1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@steeze-ui/svelte-icon/-/svelte-icon-1.3.2.tgz#ae81d9568bd89c06842dd2d0b2f54c94367f474a"
+  integrity sha512-Y7tH9UKeDYLfBicWLw4n4mhgfuSwgEdtq9wog7H+DjvfpTvea5SEqjHI8onoKZonJqAaUBGVjH02LAiqRWu+cw==
+
 "@sveltejs/adapter-auto@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@sveltejs/adapter-auto/-/adapter-auto-2.0.0.tgz#902dba0c92e8c1d4b3128c53b370d6cc18f8f672"
