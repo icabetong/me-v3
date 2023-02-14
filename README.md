@@ -4,7 +4,7 @@
 ![prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 ![netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-The second iteration of my portfolio website with an emphasis on minimalism and simplicity; written in NextJS and React with the styling powers of TailwindCSS.
+The third iteration of my portfolio website with an emphasis on minimalism and simplicity; written using SvelteKit with the styling powers of TailwindCSS.
 
 ## Built with
 
