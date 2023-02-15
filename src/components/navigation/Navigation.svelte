@@ -28,10 +28,7 @@
 			</ul>
 		</div>
 		<div class="hidden md:block">
-			<a
-				href="/contact"
-				class="border border-zinc-900 bg-white px-4 py-2 shadow-neu focus:translate-y-1 focus:shadow-neu-focused"
-				>Let's Talk</a>
+			<a href="/contact" class="px-4 py-2">Let's Talk</a>
 		</div>
 		<div class="md:hidden">
 			<button type="button" on:click={toggleMenu}>
