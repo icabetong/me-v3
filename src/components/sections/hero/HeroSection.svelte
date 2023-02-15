@@ -50,15 +50,13 @@
 				developer tools such as
 				<span bind:this={gitEl}>Git</span> and Jira.
 			</p>
-			<div class="mt-8 flex flex-col font-body md:flex-row">
-				<div class="hidden md:block">
-					<button type="button" class="button-alternate">
-						<Icon src={Linkedin} class="h-5 w-5" />
-					</button>
-					<button type="button" class="button-alternate">
-						<Icon src={Github} class="h-5 w-5" />
-					</button>
-				</div>
+			<div class="mt-8 flex flex-col space-x-2 font-body md:flex-row">
+				<button type="button" class="button-alternate">
+					<Icon src={Linkedin} class="h-5 w-5" />
+				</button>
+				<button type="button" class="button-alternate">
+					<Icon src={Github} class="h-5 w-5" />
+				</button>
 				<button type="button" class="button-primary flex items-center justify-center">
 					<Icon src={FileText} class="mr-2 h-5 w-5" />
 					<span class="h-full">View Resume</span>
