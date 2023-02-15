@@ -3,9 +3,11 @@
 	import HeroSection from '$components/sections/hero/HeroSection.svelte'
 </script>
 
-<Navigation />
-<main>
+<main class="relative mx-auto min-h-screen">
 	<HeroSection />
+	<div class="absolute inset-0 h-fit">
+		<Navigation />
+	</div>
 </main>
 
 <svelte:head>

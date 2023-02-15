@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +24,16 @@ a {
 
 @layer components {
 	.box {
-		@apply mx-auto max-w-screen-xl px-4 md:px-8;
+		@apply mx-auto w-full max-w-screen-xl px-4 md:px-8;
 	}
+	.button-primary {
+		@apply mr-2 mb-2 rounded-lg bg-piccolo px-5 py-2 text-sm font-semibold text-white focus:ring-4;
+	}
+	.button-alternate {
+		@apply mr-2 mb-2 rounded-lg border border-zinc-200 bg-white py-2 px-5 text-sm font-medium text-zinc-900 hover:bg-zinc-100 hover:text-piccolo focus:z-10 focus:outline-none focus:ring-4 focus:ring-zinc-200 dark:border-zinc-600 dark:bg-zinc-800 dark:text-zinc-400 dark:hover:bg-zinc-700 dark:hover:text-white dark:focus:ring-zinc-700;
+	}
+}
+
+#particles {
+	height: 100%;
 }

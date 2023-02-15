@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Sidebar from '$lib/sidebar/Sidebar.svelte'
 	import { Icon } from '@steeze-ui/svelte-icon'
-	import { Menu } from '@steeze-ui/feather-icons'
+	import { Menu, Sun } from '@steeze-ui/feather-icons'
 
 	let show = false
 
@@ -9,12 +9,13 @@
 	const links = [
 		{ route: '#about', label: 'About' },
 		{ route: '#skills', label: 'Skills' },
-		{ route: '#works', label: 'Works' }
+		{ route: '#works', label: 'Works' },
+		{ route: '/contacts', label: 'Contact' }
 	]
 </script>
 
 <header class="box">
-	<nav class="flex items-center justify-between py-6 px-2 md:px-0">
+	<nav class="flex items-center justify-between py-6 px-2 md:px-8">
 		<div>
 			<a href="/" class="bg-clip-text text-xl font-semibold "> icabetong.me </a>
 		</div>
@@ -22,16 +23,22 @@
 			<ul class="flex items-center space-x-8">
 				{#each links as link}
 					<li>
-						<a href={link.route} class="font-medium hover:text-purple-600">{link.label}</a>
+						<a
+							href={link.route}
+							class="font-medium transition-all ease-in-out hover:text-piccolo dark:hover:text-hit">
+							{link.label}
+						</a>
 					</li>
 				{/each}
 			</ul>
 		</div>
 		<div class="hidden md:block">
-			<a href="/contact" class="px-4 py-2">Let's Talk</a>
+			<button type="button">
+				<Icon src={Sun} class="h-5 w-5" />
+			</button>
 		</div>
 		<div class="md:hidden">
-			<button type="button" on:click={toggleMenu}>
+			<button type="button" on:click={toggleMenu} aria-label="navigation menu">
 				<Icon src={Menu} class="h-5 w-5" />
 			</button>
 		</div>
