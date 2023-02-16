@@ -22,7 +22,8 @@
 			</div>
 		</div>
 
-		<p class="w-2/3 text-zinc-500 group-hover:text-zinc-900 dark:group-hover:text-zinc-50">
+		<p
+			class="w-2/3 text-zinc-600 group-hover:text-zinc-900 dark:text-zinc-400 dark:group-hover:text-zinc-50">
 			{work.description}
 		</p>
 	</div>
