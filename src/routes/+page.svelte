@@ -2,6 +2,7 @@
 	import Navigation from '$components/navigation/Navigation.svelte'
 	import AboutSection from '$components/sections/skills/SkillsSection.svelte'
 	import HeroSection from '$components/sections/hero/HeroSection.svelte'
+	import WorksSection from '$components/sections/works/WorksSection.svelte'
 </script>
 
 <main class="relative mx-auto min-h-screen">
@@ -10,6 +11,7 @@
 		<Navigation />
 	</div>
 	<AboutSection />
+	<WorksSection />
 </main>
 
 <svelte:head>

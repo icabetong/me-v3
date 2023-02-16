@@ -30,29 +30,29 @@
 	}
 </script>
 
-<section
-	id="skills"
-	class="box flex flex-col items-center bg-zinc-100 py-24 dark:bg-zinc-800 md:grid md:grid-cols-5 md:gap-8">
-	<div
-		use:inview
-		on:enter={showAnimation}
-		class="mb-4 w-full px-2 text-center md:col-span-2 md:mb-0 md:px-8">
-		<h1 bind:this={headingEl} class="inline font-heading text-2xl font-bold">Skills</h1>
-		<p class="text-zinc-500 dark:text-zinc-400">
-			Frameworks, Programming Languages and Tools that I am familiar and comfortable working with
-		</p>
-	</div>
-	<div class="mt-4 px-4 md:col-span-3 md:mt-0">
-		<ul
-			bind:this={skillsEl}
-			class="grid grid-cols-2 gap-4 text-zinc-700 dark:text-zinc-300 sm:grid-cols-3 lg:grid-cols-4">
-			{#each skills as skill}
-				<li
-					class="transition-scale flex flex-col items-center space-y-2 rounded-lg border border-transparent py-4 px-2 hover:border-piccolo hover:text-piccolo dark:hover:border-hit dark:hover:text-hit">
-					<Icon src={skill.icon} class="h-6 w-6" />
-					<div>{skill.name}</div>
-				</li>
-			{/each}
-		</ul>
+<section id="skills" class="bg-zinc-100 py-24 dark:bg-zinc-800">
+	<div class="box flex flex-col items-center md:grid md:grid-cols-5 md:gap-8">
+		<div
+			use:inview
+			on:enter={showAnimation}
+			class="mb-4 w-full px-2 text-center md:col-span-2 md:mb-0 md:px-8">
+			<h2 bind:this={headingEl} class="inline font-heading text-2xl font-bold">Skills</h2>
+			<p class="text-zinc-500 dark:text-zinc-400">
+				Frameworks, Programming Languages and Tools that I am familiar and comfortable working with
+			</p>
+		</div>
+		<div class="mt-4 px-4 md:col-span-3 md:mt-0">
+			<ul
+				bind:this={skillsEl}
+				class="grid grid-cols-2 gap-4 text-zinc-700 dark:text-zinc-300 sm:grid-cols-3 lg:grid-cols-4">
+				{#each skills as skill}
+					<li
+						class="transition-scale flex flex-col items-center space-y-2 rounded-lg border border-transparent py-4 px-2 hover:border-piccolo hover:text-piccolo dark:hover:border-hit dark:hover:text-hit">
+						<Icon src={skill.icon} class="h-6 w-6" />
+						<div>{skill.name}</div>
+					</li>
+				{/each}
+			</ul>
+		</div>
 	</div>
 </section>
