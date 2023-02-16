@@ -27,9 +27,9 @@
 				</li>
 			{/each}
 		</ul>
-		<div class="mt-4 text-center text-zinc-500">
+		<div class="mt-4 text-center text-zinc-600 dark:text-zinc-400">
 			© 2023
-			<span class="font-semibold text-zinc-800 dark:text-zinc-50">{meta.author}</span>
+			<span class="font-bold text-zinc-800 dark:text-zinc-50">{meta.author}</span>
 			. All rights reserved.
 		</div>
 		<a
