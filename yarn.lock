@@ -203,6 +203,11 @@
   resolved "https://registry.yarnpkg.com/@steeze-ui/feather-icons/-/feather-icons-1.3.0.tgz#44b36bf5a00b2153f65c51a4e9eeabbdca51ef73"
   integrity sha512-I1smxP+LFQDL09ccVQ3IKx6eyORnbzVY0g4Fn7AdNmnwuE2XAlfi/F7r5ti2OlgVbkSMwFjM5VpqLCe6dIykMg==
 
+"@steeze-ui/simple-icons@^1.3.0":
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/@steeze-ui/simple-icons/-/simple-icons-1.3.0.tgz#0877b7a45edae81403821bfe386a1d997f8fb5c5"
+  integrity sha512-M5Dtg2GhU6np07qkwicUfvMZYS24r9unoMy4BHfDEFsenx2bY19FJ755YCO2dd1anIfEE2oHPlHSWBHuP/zs7A==
+
 "@steeze-ui/svelte-icon@^1.3.2":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@steeze-ui/svelte-icon/-/svelte-icon-1.3.2.tgz#ae81d9568bd89c06842dd2d0b2f54c94367f474a"
@@ -1662,6 +1667,11 @@ svelte-hmr@^0.15.1:
   version "0.15.1"
   resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.1.tgz#d11d878a0bbb12ec1cba030f580cd2049f4ec86b"
   integrity sha512-BiKB4RZ8YSwRKCNVdNxK/GfY+r4Kjgp9jCLEy0DuqAKfmQtpL38cQK3afdpjw4sqSs4PLi3jIPJIFp259NkZtA==
+
+svelte-inview@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/svelte-inview/-/svelte-inview-3.0.2.tgz#6421a3cb8fd2dafb5a1019de74efbd5f27e1f57b"
+  integrity sha512-QdMGe8oE/dsoqbQHppeNgz9zK0Ahir+RYDqw5JwKJcbdzLOkgPGp0Dzt8c9PIdEQXoJD+piOeMGdQGrCmlyMag==
 
 svelte-particles@^2.9.3:
   version "2.9.3"

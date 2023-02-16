@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Navigation from '$components/navigation/Navigation.svelte'
-	import AboutSection from '$components/sections/about/AboutSection.svelte'
+	import AboutSection from '$components/sections/skills/SkillsSection.svelte'
 	import HeroSection from '$components/sections/hero/HeroSection.svelte'
 </script>
 

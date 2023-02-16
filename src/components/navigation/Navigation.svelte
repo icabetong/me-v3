@@ -13,7 +13,7 @@
 		toggleMenu()
 	}
 	const links = [
-		{ route: '#about', label: 'About' },
+		{ route: '#skills', label: 'Skills' },
 		{ route: '#works', label: 'Works' },
 		{ route: '/contacts', label: 'Contact' }
 	]
