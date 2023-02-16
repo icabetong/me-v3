@@ -2,9 +2,9 @@
 	import { onMount } from 'svelte'
 	import { annotate, annotationGroup } from 'rough-notation'
 	import { Icon } from '@steeze-ui/svelte-icon'
-	import { Linkedin, Github, Download, FileText } from '@steeze-ui/feather-icons'
-	import colors from '$shared/colors'
+	import { Linkedin, Github, FileText } from '@steeze-ui/feather-icons'
 	import Particles from '$components/particles/Particles.svelte'
+	import colors from '$shared/colors'
 
 	let codeEl: HTMLElement
 	let nameEl: HTMLElement
@@ -50,12 +50,16 @@
 				developer tools such as
 				<span bind:this={gitEl}>Git</span> and Jira.
 			</p>
-			<div class="mt-8 flex flex-col space-x-2 font-body md:flex-row">
-				<button type="button" class="button-alternate">
-					<Icon src={Linkedin} class="h-5 w-5" />
+			<div class="mt-8 flex space-x-4 font-body md:flex-row">
+				<button
+					type="button"
+					class="group transform p-2 transition-all duration-150 hover:scale-110">
+					<Icon src={Linkedin} class="h-5 w-5 transition-all group-hover:text-hit" />
 				</button>
-				<button type="button" class="button-alternate">
-					<Icon src={Github} class="h-5 w-5" />
+				<button
+					type="button"
+					class="group transform p-2 transition-all duration-150 hover:scale-110">
+					<Icon src={Github} class="h-5 w-5 transition-all group-hover:text-hit" />
 				</button>
 				<button type="button" class="button-primary flex items-center justify-center">
 					<Icon src={FileText} class="mr-2 h-5 w-5" />

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Navigation from '$components/navigation/Navigation.svelte'
+	import AboutSection from '$components/sections/about/AboutSection.svelte'
 	import HeroSection from '$components/sections/hero/HeroSection.svelte'
 </script>
 
@@ -8,6 +9,7 @@
 	<div class="absolute inset-0 h-fit">
 		<Navigation />
 	</div>
+	<AboutSection />
 </main>
 
 <svelte:head>
