@@ -9,6 +9,12 @@ import {
 	Nextdotjs,
 	Svelte
 } from '@steeze-ui/simple-icons'
+import fokus from '$lib/assets/fokus.webp'
+import coind from '$lib/assets/coind.webp'
+import openauth from '$lib/assets/openauth.webp'
+import kantina from '$lib/assets/kantina.webp'
+import movieous from '$lib/assets/movieous.webp'
+import zap from '$lib/assets/zap.webp'
 
 export const mobile: Work[] = [
 	{
@@ -16,14 +22,14 @@ export const mobile: Work[] = [
 		description: 'Reminder app for tasks and events tailored specifically for students',
 		repository: 'https://github.com/icabetong/fokus-android',
 		frameworks: [Android, Kotlin],
-		image: '/images/works/fokus.webp'
+		image: fokus
 	},
 	{
 		name: 'coind',
 		description: 'A realtime crypocurrency information app built using Flutter.',
 		repository: 'https://github.com/icabetong/coind',
 		frameworks: [Flutter, Dart],
-		image: '/images/works/coind.webp'
+		image: coind
 	},
 	{
 		name: 'openauth',
@@ -31,7 +37,7 @@ export const mobile: Work[] = [
 			'A beautiful, secure and simple authenticator app that supports multiple protocols and services',
 		repository: 'https://github.com/icabetong/openauth',
 		frameworks: [Flutter, Dart],
-		image: '/images/works/openauth.webp'
+		image: openauth
 	}
 ]
 
@@ -41,14 +47,14 @@ export const web: Work[] = [
 		description: 'A small e-commerce website for the stalls inside the universities',
 		repository: 'https://github.com/icabetong/kantina',
 		frameworks: [Svelte, Typescript],
-		image: '/images/works/kantina.webp'
+		image: kantina
 	},
 	{
 		name: 'movieous',
 		description: 'A sample theater reservation client built using React and Chakra-UI',
 		repository: 'https://github.com/icabetong/movieous',
 		frameworks: [React, Javascript],
-		image: '/images/works/movieous.webp'
+		image: movieous
 	},
 	{
 		name: 'zap',
@@ -56,6 +62,6 @@ export const web: Work[] = [
 			'A simple, easy to use and private file sharing service which utilizes the AnonFiles API service',
 		repository: 'https://github.com/icabetong/zap',
 		frameworks: [React, Typescript, Nextdotjs],
-		image: '/images/works/zap.webp'
+		image: zap
 	}
 ]
