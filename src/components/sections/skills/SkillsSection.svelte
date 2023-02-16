@@ -37,7 +37,7 @@
 			on:enter={showAnimation}
 			class="mb-4 w-full px-2 text-center md:col-span-2 md:mb-0 md:px-8">
 			<h2 bind:this={headingEl} class="inline font-heading text-3xl font-bold">Skills</h2>
-			<p class="text-zinc-500 dark:text-zinc-400">
+			<p class="text-zinc-600 dark:text-zinc-400">
 				Frameworks, Programming Languages and Tools that I am familiar and comfortable working with
 			</p>
 		</div>
