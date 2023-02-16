@@ -48,7 +48,7 @@
 			class="grid grid-cols-2 gap-4 text-zinc-700 dark:text-zinc-300 sm:grid-cols-3 lg:grid-cols-4">
 			{#each skills as skill}
 				<li
-					class="flex transform flex-col items-center space-y-2 rounded-lg border border-transparent py-4 px-2 transition-all ease-in-out hover:scale-110 hover:border-piccolo hover:text-piccolo dark:hover:border-hit dark:hover:text-hit">
+					class="transition-scale flex flex-col items-center space-y-2 rounded-lg border border-transparent py-4 px-2 hover:border-piccolo hover:text-piccolo dark:hover:border-hit dark:hover:text-hit">
 					<Icon src={skill.icon} class="h-6 w-6" />
 					<div>{skill.name}</div>
 				</li>

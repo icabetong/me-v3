@@ -1,9 +1,14 @@
 <script lang="ts">
+	import Footer from '$components/footer/Footer.svelte'
 	import { meta } from '$shared/const'
 	import '../app.css'
+	import type { PageData } from './$types'
+
+	export let data: PageData
 </script>
 
 <slot />
+<Footer forks={data.forks} stars={data.stargazersCount} />
 
 <svelte:head>
 	<meta name="author" content={meta.author} />

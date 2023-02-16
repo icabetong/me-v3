@@ -56,7 +56,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					href={links.linkedin}
-					class="group transform p-2 transition-all duration-150 hover:scale-110"
+					class="transition-scale group p-2"
 					aria-label="LinkedIn link">
 					<Icon src={Linkedin} class="h-5 w-5 transition-all group-hover:text-hit" />
 				</a>
@@ -64,7 +64,7 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					href={links.github}
-					class="group transform p-2 transition-all duration-150 hover:scale-110"
+					class="transition-scale group p-2"
 					aria-label="GitHub link">
 					<Icon src={Github} class="h-5 w-5 transition-all group-hover:text-hit" />
 				</a>

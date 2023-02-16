@@ -13,9 +13,9 @@
 		toggleMenu()
 	}
 	const links = [
-		{ route: '#skills', label: 'Skills' },
-		{ route: '#works', label: 'Works' },
-		{ route: '/contacts', label: 'Contact' }
+		{ route: '/#skills', label: 'Skills' },
+		{ route: '/#works', label: 'Works' },
+		{ route: '/contact', label: 'Contact' }
 	]
 </script>
 
