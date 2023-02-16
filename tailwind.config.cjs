@@ -11,8 +11,8 @@ module.exports = {
 				chichi: '#FF4E64'
 			},
 			fontFamily: {
-				heading: ['Epilogue', 'sans-serif'],
-				body: ['Inter', 'sans-serif']
+				heading: ['Montserrat', 'sans-serif'],
+				body: ['Source Sans 3', 'sans-serif']
 			}
 		}
 	},

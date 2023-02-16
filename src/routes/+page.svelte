@@ -3,6 +3,7 @@
 	import AboutSection from '$components/sections/skills/SkillsSection.svelte'
 	import HeroSection from '$components/sections/hero/HeroSection.svelte'
 	import WorksSection from '$components/sections/works/WorksSection.svelte'
+	import ContactSection from '$components/sections/contact/ContactSection.svelte'
 </script>
 
 <main class="relative mx-auto min-h-screen">
@@ -12,6 +13,7 @@
 	</div>
 	<AboutSection />
 	<WorksSection />
+	<ContactSection />
 </main>
 
 <svelte:head>
