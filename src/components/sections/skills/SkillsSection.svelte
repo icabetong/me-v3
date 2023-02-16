@@ -42,10 +42,10 @@
 			Frameworks, Programming Languages and Tools that I am familiar and comfortable working with
 		</p>
 	</div>
-	<div class="px-4 md:col-span-3">
+	<div class="mt-4 px-4 md:col-span-3 md:mt-0">
 		<ul
 			bind:this={skillsEl}
-			class="grid grid-cols-3 gap-4 text-zinc-700 dark:text-zinc-300 lg:grid-cols-4">
+			class="grid grid-cols-2 gap-4 text-zinc-700 dark:text-zinc-300 sm:grid-cols-3 lg:grid-cols-4">
 			{#each skills as skill}
 				<li
 					class="flex transform flex-col items-center space-y-2 rounded-lg border border-transparent py-4 px-2 transition-all ease-in-out hover:scale-110 hover:border-piccolo hover:text-piccolo dark:hover:border-hit dark:hover:text-hit">
