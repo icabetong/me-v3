@@ -33,7 +33,7 @@
 <section id="skills" class="bg-zinc-100 py-24 dark:bg-zinc-800">
 	<div class="box flex flex-col items-center md:grid md:grid-cols-5 md:gap-8">
 		<div
-			use:inview
+			use:inview={{ unobserveOnEnter: true }}
 			on:enter={showAnimation}
 			class="mb-4 w-full px-2 text-center md:col-span-2 md:mb-0 md:px-8">
 			<h2 bind:this={headingEl} class="inline font-heading text-3xl font-bold">Skills</h2>
