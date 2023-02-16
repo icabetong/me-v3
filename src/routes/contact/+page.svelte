@@ -6,9 +6,10 @@
 
 <Navigation />
 <main class="box">
-	<div class="flex flex-1 flex-col px-2 py-24 md:flex-row md:space-x-16 md:px-8 md:py-32">
+	<div
+		class="flex flex-1 flex-col space-y-8 px-2 py-8 md:flex-row md:space-y-0 md:space-x-16 md:px-8 md:py-32">
 		<div class="flex h-full flex-1 flex-col justify-center space-y-4">
-			<h1 class="font-heading text-5xl font-semibold">Got a project for me?</h1>
+			<h1 class="font-heading text-3xl font-semibold md:text-5xl">Got a project for me?</h1>
 			<p class="text-lg font-medium text-zinc-700 dark:text-zinc-300">
 				Let's create something together
 			</p>
