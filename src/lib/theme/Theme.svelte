@@ -59,6 +59,10 @@
 	</script>
 </svelte:head>
 
-<button type="button" class:hidden on:click={toggle}>
-	<Icon src={$theme ? Sun : Moon} class="h-5 w-5" />
+<button
+	type="button"
+	class:hidden
+	on:click={toggle}
+	class="group transform p-2 transition-all duration-150 hover:scale-110">
+	<Icon src={$theme ? Sun : Moon} class="h-5 w-5 transition-all group-hover:text-hit" />
 </button>

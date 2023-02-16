@@ -5,6 +5,7 @@
 	import { Linkedin, Github, FileText } from '@steeze-ui/feather-icons'
 	import Particles from '$components/particles/Particles.svelte'
 	import colors from '$shared/colors'
+	import { links } from '$shared/const'
 
 	let codeEl: HTMLElement
 	let nameEl: HTMLElement
@@ -51,20 +52,30 @@
 				<span bind:this={gitEl}>Git</span> and Jira.
 			</p>
 			<div class="mt-8 flex space-x-4 font-body md:flex-row">
-				<button
-					type="button"
-					class="group transform p-2 transition-all duration-150 hover:scale-110">
+				<a
+					target="_blank"
+					rel="noopener noreferrer"
+					href={links.linkedin}
+					class="group transform p-2 transition-all duration-150 hover:scale-110"
+					aria-label="LinkedIn link">
 					<Icon src={Linkedin} class="h-5 w-5 transition-all group-hover:text-hit" />
-				</button>
-				<button
-					type="button"
-					class="group transform p-2 transition-all duration-150 hover:scale-110">
+				</a>
+				<a
+					target="_blank"
+					rel="noopener noreferrer"
+					href={links.github}
+					class="group transform p-2 transition-all duration-150 hover:scale-110"
+					aria-label="GitHub link">
 					<Icon src={Github} class="h-5 w-5 transition-all group-hover:text-hit" />
-				</button>
-				<button type="button" class="button-primary flex items-center justify-center">
+				</a>
+				<a
+					target="_blank"
+					rel="noopener noreferrer"
+					href={links.resume}
+					class="button-primary flex items-center justify-center">
 					<Icon src={FileText} class="mr-2 h-5 w-5" />
 					<span class="h-full">View Resume</span>
-				</button>
+				</a>
 			</div>
 		</div>
 	</div>
