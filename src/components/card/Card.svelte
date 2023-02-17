@@ -3,12 +3,11 @@
 	import { Icon } from '@steeze-ui/svelte-icon'
 
 	export let work: Work
-	export let dimensions: { width?: string; height?: string } = {}
 </script>
 
 <li class="group flex cursor-pointer flex-col items-center text-center">
 	<div class="h-76 max-w-xl overflow-hidden">
-		<img src={work.image} alt={work.name} width={dimensions.width} height={dimensions.height} />
+		<img src={work.image} alt={work.name} />
 	</div>
 	<div class="mb-6 flex flex-col items-center">
 		<div class="mr-4 mt-2 flex items-center justify-center text-2xl">
