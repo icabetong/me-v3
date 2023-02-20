@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Navigation from '$components/navigation/Navigation.svelte'
-	import AboutSection from '$components/sections/skills/SkillsSection.svelte'
+	import SkillSection from '$components/sections/skills/SkillsSection.svelte'
 	import HeroSection from '$components/sections/hero/HeroSection.svelte'
 	import WorksSection from '$components/sections/works/WorksSection.svelte'
 	import ContactSection from '$components/sections/contact/ContactSection.svelte'
@@ -11,7 +11,7 @@
 	<div class="absolute inset-0 h-fit">
 		<Navigation />
 	</div>
-	<AboutSection />
+	<SkillSection />
 	<WorksSection />
 	<ContactSection />
 </main>

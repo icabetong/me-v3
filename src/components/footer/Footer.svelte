@@ -32,22 +32,24 @@
 			<span class="font-bold text-zinc-800 dark:text-zinc-50">{meta.author}</span>
 			. All rights reserved.
 		</div>
-		<a
-			href={meta.repository}
-			target="_blank"
-			rel="noopener noreferrer"
-			aria-label="GitHub Repository"
-			class="mt-2 flex px-4 py-2">
-			<div class="flex items-center space-x-4 text-zinc-700 dark:text-zinc-300">
-				<div class="flex items-center">
-					<GitStar classes="h-6 w-6 mr-4" />
-					<span class="font-medium">{stars}</span>
+		{#if !!stars && !!forks}
+			<a
+				href={meta.repository}
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="GitHub Repository"
+				class="mt-2 flex px-4 py-2">
+				<div class="flex items-center space-x-4 text-zinc-700 dark:text-zinc-300">
+					<div class="flex items-center">
+						<GitStar classes="h-6 w-6 mr-4" />
+						<span class="font-medium">{stars}</span>
+					</div>
+					<div class="flex items-center">
+						<GitFork classes="h-6 w-6 mr-4" />
+						<span class="font-medium">{forks}</span>
+					</div>
 				</div>
-				<div class="flex items-center">
-					<GitFork classes="h-6 w-6 mr-4" />
-					<span class="font-medium">{forks}</span>
-				</div>
-			</div>
-		</a>
+			</a>
+		{/if}
 	</div>
 </footer>
