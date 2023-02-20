@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition'
 	import { inview } from 'svelte-inview'
-	import { links } from '$shared/const'
+	import { links } from '$data/const'
 	import { onMount } from 'svelte'
 
 	let visible: boolean = false

@@ -5,7 +5,7 @@
 	import { Linkedin, Github, FileText } from '@steeze-ui/feather-icons'
 	import Particles from '$components/particles/Particles.svelte'
 	import colors from '$shared/colors'
-	import { links } from '$shared/const'
+	import { links } from '$data/const'
 
 	let codeEl: HTMLElement
 	let nameEl: HTMLElement

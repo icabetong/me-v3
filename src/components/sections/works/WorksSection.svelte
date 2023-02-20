@@ -2,7 +2,7 @@
 	import { inview } from 'svelte-inview'
 	import { annotate } from 'rough-notation'
 	import Card from '$components/card/Card.svelte'
-	import { mobile, web } from '$shared/works'
+	import { mobile, web } from '$data/works'
 	import colors from '$shared/colors'
 
 	let animationDone: boolean = false

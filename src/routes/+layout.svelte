@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Footer from '$components/footer/Footer.svelte'
-	import { meta } from '$shared/const'
+	import { meta } from '$data/const'
 	import '../app.css'
 	import type { PageData } from './$types'
 

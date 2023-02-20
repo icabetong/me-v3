@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Icon } from '@steeze-ui/svelte-icon'
 	import { Github, Instagram, Linkedin, Mail, Twitter } from '@steeze-ui/feather-icons'
-	import { links, meta } from '$shared/const'
+	import { links, meta } from '$data/const'
 	import GitStar from '$lib/icons/GitStar.svelte'
 	import GitFork from '$lib/icons/GitFork.svelte'
 

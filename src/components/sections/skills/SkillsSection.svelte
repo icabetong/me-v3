@@ -2,7 +2,7 @@
 	import { inview } from 'svelte-inview'
 	import { Icon } from '@steeze-ui/svelte-icon'
 	import colors from '$shared/colors'
-	import skills from '$shared/skills'
+	import skills from '$data/skills'
 	import { annotate, annotationGroup } from 'rough-notation'
 
 	let animationDone: boolean = false
