@@ -37,11 +37,9 @@
 				{/each}
 			</ul>
 		</div>
-		<div class="hidden md:block">
+		<div class="flex items-center space-x-4">
 			<Theme />
-		</div>
-		<div class="md:hidden">
-			<button type="button" on:click={toggleMenu} aria-label="navigation menu">
+			<button class="md:hidden" type="button" on:click={toggleMenu} aria-label="navigation menu">
 				<Icon src={Menu} class="h-5 w-5" />
 			</button>
 		</div>

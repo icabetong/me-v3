@@ -12,7 +12,7 @@
 
 {#if show}
 	<div
-		class="fixed top-0 right-0 flex h-full w-80 flex-col overflow-y-auto border-l border-zinc-200 bg-white p-4 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 md:hidden"
+		class="fixed top-0 right-0 z-10 flex min-h-screen w-80 flex-col overflow-y-hidden border-l border-zinc-200 bg-white p-4 dark:border-zinc-700 dark:bg-zinc-800 dark:text-zinc-50 md:hidden"
 		transition:fly={{ x: 320, opacity: 1 }}>
 		<div class="mb-8 flex items-center justify-end">
 			<button
