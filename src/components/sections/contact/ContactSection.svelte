@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition'
 	import { inview } from 'svelte-inview'
-	import { links } from '$data/const'
 	import { onMount } from 'svelte'
 
 	let visible: boolean = false
@@ -26,7 +25,7 @@
 				</p>
 				<a
 					in:fly={{ y: 20, duration: 2000 }}
-					href={links.mail}
+					href="/contact"
 					rel="noopener noreferrer"
 					class="button-primary px-16 py-4 text-center text-lg">
 					Say Hello!
