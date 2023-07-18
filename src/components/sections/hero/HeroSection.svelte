@@ -46,7 +46,7 @@
 			</p>
 			<p class="mt-8 w-full font-body text-zinc-600 dark:text-zinc-400 md:w-1/2">
 				A hardworking and compassionate developer, I develop web applications written in
-				<span bind:this={reactEl}>React</span>, Angular or <span bind:this={svelteEl}>Svelte</span>,
+				<span bind:this={reactEl}>React</span>, Vue or <span bind:this={svelteEl}>Svelte</span>,
 				with experience writing Cypress UI and unit tests in Jest. Also comfortable in using various
 				developer tools such as
 				<span bind:this={gitEl}>Git</span> and Jira.
