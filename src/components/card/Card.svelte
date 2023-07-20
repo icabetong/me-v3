@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { Github } from '@steeze-ui/feather-icons'
 	import { Icon } from '@steeze-ui/svelte-icon'
+	import { t } from '$lib/translations'
 
 	export let work: Work
 </script>
@@ -24,7 +25,7 @@
 
 		<p
 			class="w-2/3 text-zinc-600 group-hover:text-zinc-900 dark:text-zinc-400 dark:group-hover:text-zinc-50">
-			{work.description}
+			{$t(`home.works.${work.name}`)}
 		</p>
 	</div>
 	<a

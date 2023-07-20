@@ -4,6 +4,7 @@
 	import { links, meta } from '$data/const'
 	import GitStar from '$lib/icons/GitStar.svelte'
 	import GitFork from '$lib/icons/GitFork.svelte'
+	import { t } from '$lib/translations'
 
 	export let stars: number
 	export let forks: number
@@ -28,9 +29,7 @@
 			{/each}
 		</ul>
 		<div class="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-			© 2023
-			<span class="font-bold text-zinc-800 dark:text-zinc-50">{meta.author}</span>
-			. All rights reserved.
+			{@html $t('common.footer.copyright')}
 		</div>
 		{#if !!stars && !!forks}
 			<a

@@ -6,7 +6,6 @@ declare global {
 	namespace App {}
 	type Work = {
 		name: string
-		description: string
 		repository: string
 		frameworks: typeof IconSource
 		image: string

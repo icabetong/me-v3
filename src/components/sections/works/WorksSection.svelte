@@ -4,6 +4,7 @@
 	import Card from '$components/card/Card.svelte'
 	import { mobile, web } from '$data/works'
 	import colors from '$shared/colors'
+	import { t } from '$lib/translations'
 
 	let animationDone: boolean = false
 	let titleEl: HTMLElement
@@ -28,7 +29,7 @@
 			on:enter={showAnimation}
 			bind:this={titleEl}
 			class="inline font-heading text-3xl font-bold">
-			Works
+			{$t('common.navigation.works')}
 		</h2>
 		<div class="mt-8 flex flex-col items-center justify-center space-y-16">
 			<ul class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">

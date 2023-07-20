@@ -1,0 +1,22 @@
+{
+	"hero": {
+		"greet": "Nice to meet you, I'm",
+		"position": "...and I turn <span class='font-semibold text-hit'>ideas into code</span> for a living",
+		"summary": "A hardworking and compassionate developer, I develop web applications written in <span id='react'>React</span>, Vue or <span id='svelte'>Svelte</span>, with experience writing Cypress UI and unit tests in Jest. Also comfortable in using various developer tools such as <span id='git'>Git</span> and Jira."
+	},
+	"skills": {
+		"summary": "Frameworks, Programming Languages and Tools that I am familiar and comfortable working with"
+	},
+	"works": {
+		"fokus": "Reminder app for tasks and events tailored specifically for students",
+		"coind": "A realtime crypocurrency information app built using Flutter.",
+		"openauth": "A beautiful, secure and simple authenticator app that supports multiple protocols and services",
+		"kantina": "A small e-commerce website for the stalls inside the universities",
+		"movieous": "A sample theater reservation client built using React and Chakra-UI",
+		"zap": "A simple, easy to use and private file sharing service which utilizes the AnonFiles API service"
+	},
+	"contact": {
+		"header": "Get in touch",
+		"summary": "Interested in working together? We should queue up a chat."
+	}
+}

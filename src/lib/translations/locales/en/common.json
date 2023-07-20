@@ -1,0 +1,25 @@
+{
+	"navigation": {
+		"skills": "Skills",
+		"works": "Works",
+		"contact": "Contact"
+	},
+	"field": {
+		"name": "Name",
+		"email": "Email Address",
+		"subject": "Subject",
+		"message": "Message"
+	},
+	"placeholder": {
+		"subject": "A nice subject",
+		"message": "Tell me more"
+	},
+	"actions": {
+		"view-resume": "View Resume",
+		"say-hello": "Say hello!",
+		"send": "Send"
+	},
+	"footer": {
+		"copyright": "© 2023 <span class='font-bold text-zinc-800 dark:text-zinc-50'>Isaiah Collins Abetong</span>. All Rights Reserved"
+	}
+}
