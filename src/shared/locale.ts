@@ -1,5 +1,10 @@
-export default function getBaseLocale(locale: string) {
-	if (locale.includes('-')) return locale.slice(0, locale.indexOf('-'))
-
-	return locale
+export default function getLanguageName(lang: string | null | undefined) {
+	switch (lang) {
+		case 'en':
+			return 'English'
+		case 'de':
+			return 'Deutsch'
+		default:
+			return lang
+	}
 }
