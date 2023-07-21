@@ -1,0 +1,54 @@
+{
+	"common": {
+		"navigation": {
+			"skills": "Fertigkeiten",
+			"works": "Werke",
+			"contact": "Contact"
+		},
+		"field": {
+			"name": "Name",
+			"email": "E-Mail Adresse",
+			"subject": "Betreff",
+			"message": "Nachricht"
+		},
+		"placeholder": {
+			"subject": "Ein schönes Thema",
+			"message": "Erzähl mir mehr"
+		},
+		"actions": {
+			"view-resume": "Lebenslauf ansehen",
+			"say-hello": "Sagen Sie hallo!",
+			"send": "Senden Sie"
+		},
+		"footer": {
+			"copyright": "© 2023 <span class='font-bold text-zinc-800 dark:text-zinc-50'>Isaiah Collins Abetong</span>. Alle Rechte vorbehalten"
+		}
+	},
+	"home": {
+		"hero": {
+			"greet": "Sehr erfreut, ich bin",
+			"position": "...und ich setze beruflich <span class='font-semibold text-hit'>Ideen in Code um</span>",
+			"summary": "Ich bin ein fleißiger und mitfühlender Entwickler und entwickle Webanwendungen, die in <span id='react'>React</span>, Vue oder <span id='svelte'>Svelte</span> geschrieben sind, mit Erfahrung im Schreiben von Cypress UI und Unit-Tests in Jest. Außerdem bin ich sicher im Umgang mit verschiedenen Entwickler-Tools wie <span id='git'>Git</span> und Jira."
+		},
+		"skills": {
+			"summary": "Frameworks, Programmiersprachen und Tools, mit denen ich vertraut bin und gerne arbeite"
+		},
+		"works": {
+			"fokus": "Speziell auf Studenten zugeschnittene Erinnerungs-App für Aufgaben und Veranstaltungen",
+			"coind": "Eine Echtzeit-Crypocurrency-Informations-App, die mit Flutter entwickelt wurde.",
+			"openauth": "Eine schöne, sichere und einfache Authentifizierungs-App, die mehrere Protokolle und Dienste unterstützt",
+			"kantina": "Eine kleine E-Commerce-Website für die Stände an den Universitäten",
+			"movieous": "Ein Beispiel für einen Theaterreservierungs-Client, der mit React und Chakra-UI erstellt wurde",
+			"zap": "Ein einfacher, benutzerfreundlicher und privater Dateifreigabedienst, der den AnonFiles API-Dienst nutzt"
+		},
+		"contact": {
+			"header": "Kontakt aufnehmen",
+			"summary": "Sind Sie an einer Zusammenarbeit interessiert? Wir sollten uns zu einem Gespräch verabreden."
+		}
+	},
+	"contact": {
+		"title": "Haben Sie ein Projekt für mich?",
+		"header": "Lassen Sie uns gemeinsam etwas schaffen",
+		"summary": "Nehmen Sie Kontakt mit mir auf, ich bin immer offen für neue Projekte, kreative Ideen oder Möglichkeiten, an Ihren Visionen mitzuwirken."
+	}
+}

@@ -1,14 +1,9 @@
 import type { LayoutLoad } from './$types'
+import { locale, waitLocale } from 'svelte-i18n'
+import '$lib/translations'
 import { browser } from '$app/environment'
-import { loadTranslations } from '$lib/translations'
-import getBaseLocale from '$shared/locale'
 
-export const load: LayoutLoad = async ({ fetch, url }) => {
-	const { pathname } = url
-
-	let initLocale = 'de' // get from cookie, user session, ...
-	// if (browser) initLocale = getBaseLocale(window.navigator.language)
-
+export const load: LayoutLoad = async ({ fetch }) => {
 	const response = await fetch('/api/github', {
 		method: 'POST',
 		body: JSON.stringify({
@@ -17,6 +12,7 @@ export const load: LayoutLoad = async ({ fetch, url }) => {
 		})
 	})
 
-	await loadTranslations(initLocale, pathname) // keep this just before the `return`
+	if (browser) locale.set(window.navigator.language)
+	await waitLocale()
 	return await response.json()
 }

@@ -6,7 +6,7 @@
 	import Particles from '$components/particles/Particles.svelte'
 	import colors from '$shared/colors'
 	import { links } from '$data/const'
-	import { t } from '$lib/translations'
+	import { _ } from 'svelte-i18n'
 
 	let codeEl: HTMLElement | null
 	let nameEl: HTMLElement
@@ -33,7 +33,6 @@
 
 		annotationGroup([name, code, react, svelte, git]).show()
 	})
-	
 </script>
 
 <section class="relative">
@@ -41,16 +40,16 @@
 	<div class="box relative flex flex-col items-start py-32 font-heading font-medium md:py-48">
 		<div class="px-2 md:px-8">
 			<div class="font-body text-lg text-zinc-600 dark:text-zinc-400 md:text-xl">
-				{$t('home.hero.greet')}
+				{$_('home.hero.greet')}
 			</div>
 			<h1 bind:this={nameEl} class="my-4 inline-block text-4xl font-bold md:my-8 md:text-6xl">
 				Isaiah Collins
 			</h1>
 			<p id="code" class="text-xl md:text-2xl">
-				{@html $t('home.hero.position')}
+				{@html $_('home.hero.position')}
 			</p>
 			<p id="summary" class="mt-8 w-full font-body text-zinc-600 dark:text-zinc-400 md:w-1/2">
-				{@html $t('home.hero.summary')}
+				{@html $_('home.hero.summary')}
 			</p>
 			<div class="mt-8 flex space-x-4 font-body md:flex-row">
 				<a
@@ -73,9 +72,9 @@
 					target="_blank"
 					rel="noopener noreferrer"
 					href={links.resume}
-					class="button-primary flex items-center justify-center">
+					class="button-primary transition-scale flex items-center justify-center">
 					<Icon src={FileText} class="mr-2 h-5 w-5" />
-					<span class="h-full">{$t('common.actions.view-resume')}</span>
+					<span class="h-full">{$_('common.actions.view-resume')}</span>
 				</a>
 			</div>
 		</div>

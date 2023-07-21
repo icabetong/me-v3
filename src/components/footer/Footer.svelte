@@ -4,7 +4,8 @@
 	import { links, meta } from '$data/const'
 	import GitStar from '$lib/icons/GitStar.svelte'
 	import GitFork from '$lib/icons/GitFork.svelte'
-	import { t } from '$lib/translations'
+	import { _ } from 'svelte-i18n'
+	import LanguagePicker from '$components/language-picker/LanguagePicker.svelte'
 
 	export let stars: number
 	export let forks: number
@@ -29,7 +30,7 @@
 			{/each}
 		</ul>
 		<div class="mt-4 text-center text-zinc-600 dark:text-zinc-400">
-			{@html $t('common.footer.copyright')}
+			{@html $_('common.footer.copyright')}
 		</div>
 		{#if !!stars && !!forks}
 			<a
@@ -50,5 +51,6 @@
 				</div>
 			</a>
 		{/if}
+		<LanguagePicker />
 	</div>
 </footer>

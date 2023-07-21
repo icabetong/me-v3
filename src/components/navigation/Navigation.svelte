@@ -4,7 +4,7 @@
 	import { Icon } from '@steeze-ui/svelte-icon'
 	import { Menu } from '@steeze-ui/feather-icons'
 	import { goto } from '$app/navigation'
-	import { t } from '$lib/translations'
+	import { _ } from 'svelte-i18n'
 
 	let show = false
 
@@ -14,9 +14,9 @@
 		toggleMenu()
 	}
 	const links = [
-		{ route: '/#skills', label: $t('common.navigation.skills') },
-		{ route: '/#works', label: $t('common.navigation.works') },
-		{ route: '/contact', label: $t('common.navigation.contact') }
+		{ route: '/#skills', label: $_('common.navigation.skills') },
+		{ route: '/#works', label: $_('common.navigation.works') },
+		{ route: '/contact', label: $_('common.navigation.contact') }
 	]
 </script>
 

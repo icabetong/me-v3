@@ -4,7 +4,7 @@
 	import colors from '$shared/colors'
 	import skills from '$data/skills'
 	import { annotate, annotationGroup } from 'rough-notation'
-	import { t } from '$lib/translations'
+	import { _ } from 'svelte-i18n'
 
 	let animationDone: boolean = false
 	let headingEl: HTMLElement
@@ -37,9 +37,9 @@
 			use:inview={{ unobserveOnEnter: true }}
 			on:enter={showAnimation}
 			class="mb-4 w-full px-2 text-center md:col-span-2 md:mb-0 md:px-8">
-			<h2 bind:this={headingEl} class="inline font-heading text-3xl font-bold">{$t('common.navigation.skills')}</h2>
+			<h2 bind:this={headingEl} class="inline font-heading text-3xl font-bold">{$_('common.navigation.skills')}</h2>
 			<p class="text-zinc-600 dark:text-zinc-400">
-				{$t('home.skills.summary')}
+				{$_('home.skills.summary')}
 			</p>
 		</div>
 		<div class="mt-4 px-4 md:col-span-3 md:mt-0">

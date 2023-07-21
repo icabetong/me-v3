@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Github } from '@steeze-ui/feather-icons'
 	import { Icon } from '@steeze-ui/svelte-icon'
-	import { t } from '$lib/translations'
+	import { _ } from 'svelte-i18n'
 
 	export let work: Work
 </script>
@@ -25,14 +25,14 @@
 
 		<p
 			class="w-2/3 text-zinc-600 group-hover:text-zinc-900 dark:text-zinc-400 dark:group-hover:text-zinc-50">
-			{$t(`home.works.${work.name}`)}
+			{$_(`home.works.${work.name}`)}
 		</p>
 	</div>
 	<a
 		href={work.repository}
 		target="_blank"
 		rel="noopener noreferrer"
-		class="button-alternate flex w-fit items-center text-center opacity-0 transition-all ease-in-out group-hover:opacity-100">
+		class="button-alternate transition-scale flex w-fit items-center text-center opacity-0 transition-all ease-in-out group-hover:opacity-100">
 		<Icon src={Github} class="mr-2 h-5 w-5" />
 		<span>View on GitHub</span>
 	</a>
