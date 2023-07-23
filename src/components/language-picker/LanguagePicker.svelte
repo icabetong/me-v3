@@ -9,12 +9,12 @@
 	import { Icon } from '@steeze-ui/svelte-icon'
 	import { ChevronDown } from '@steeze-ui/feather-icons'
 	import { locale, locales } from 'svelte-i18n'
-	import getLanguageName from '$shared/locale'
+	import { getLanguageName, extractLocale } from '$shared/locale'
 </script>
 
 <Listbox bind:value={$locale} class="relative mt-2">
 	<ListboxButton class="button-alternate flex w-fit items-center text-center">
-		<span>{getLanguageName($locale)}</span>
+		<span>{getLanguageName(extractLocale($locale))}</span>
 		<Icon src={ChevronDown} class="ml-2 h-4 w-4" />
 	</ListboxButton>
 	<Transition
