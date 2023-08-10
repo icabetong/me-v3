@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Footer from '$components/footer/Footer.svelte'
-	import { meta } from '$data/const'
+	import { meta, links } from '$data/const'
 	import '../app.css'
 	import type { PageData } from './$types'
 
@@ -19,7 +19,7 @@
 	<meta property="og:title" content={meta.title} />
 	<meta property="og:description" content={meta.description} />
 	<meta property="og:url" content={meta.url} />
-	<meta property="og:image" content={meta.url} />
+	<meta property="og:image" content={links.image} />
 	<meta property="og:imageAlt" content="Isaiah Collins Abetong Portfolio Site Image" />
 
 	<meta name="twitter:card" content="summary_large_image" />

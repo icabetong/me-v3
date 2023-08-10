@@ -5,7 +5,7 @@ export const links = {
 	twitter: 'https://twitter.com/icabetong',
 	mail: 'mailto:isaiahcollins_02@live.com',
 	instagram: 'https://instagram.com/izayakorinzu/',
-	image: 'https://raw.githubusercontent.com/icabetong/me-v3/main/public/images/image-meta.png'
+	image: 'https://raw.githubusercontent.com/icabetong/me-v3/main/static/images/image-meta.png'
 }
 
 export const meta = {
